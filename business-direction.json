@@ -1,0 +1,388 @@
+{
+  "signals": {
+    "businessType": "local-service",
+    "segment": "beleza-pessoal",
+    "subsegments": [
+      "agendamento",
+      "estilo",
+      "social-proof"
+    ],
+    "salesModel": "appointment",
+    "customerIntent": "agendar",
+    "decisionSpeed": 0.5,
+    "trustNeed": 0.5,
+    "visualWeight": 0.8,
+    "bookingNeed": true,
+    "catalogNeed": false,
+    "locationNeed": true,
+    "socialProofNeed": 0.7,
+    "urgencyProfile": 0.4,
+    "digitalMaturity": "baixa-media",
+    "toneHints": [
+      "estiloso",
+      "confiante",
+      "moderno"
+    ],
+    "evidence": [
+      {
+        "type": "confirmed",
+        "source": "segment-match",
+        "detail": "Nicho \"barbearia\" matched → beleza-pessoal"
+      },
+      {
+        "type": "confirmed",
+        "source": "google-rating",
+        "detail": "4.8★ (0 avaliações)"
+      },
+      {
+        "type": "confirmed",
+        "source": "lead-data",
+        "detail": "Cidade: Curitiba"
+      },
+      {
+        "type": "confirmed",
+        "source": "ia-diagnosis",
+        "detail": "Diagnóstico IA disponível"
+      }
+    ],
+    "unknowns": [],
+    "lifestyleSignal": 0.7,
+    "luxurySignal": 0.4,
+    "urgencySignal": 0.3
+  },
+  "profile": {
+    "primarySegment": "beleza-pessoal",
+    "secondarySegments": [
+      "agendamento",
+      "estilo",
+      "social-proof"
+    ],
+    "businessMode": "lifestyle-service",
+    "audience": [
+      "homens-estilo",
+      "jovens-adultos"
+    ],
+    "customerMindset": [
+      "quero-experiencia",
+      "identificacao-estilo",
+      "quero-agendar",
+      "praticidade"
+    ],
+    "purchaseContext": [
+      "planejado",
+      "agendamento"
+    ],
+    "decisionDynamics": {
+      "speed": "media",
+      "frictionTolerance": "media",
+      "trustBarrier": "medio"
+    },
+    "commercialNeeds": {
+      "booking": true,
+      "whatsapp": true,
+      "catalog": false,
+      "location": true,
+      "reviews": true,
+      "proof": false
+    },
+    "brandVibe": [
+      "profissional",
+      "acessivel"
+    ],
+    "visualDirectionHints": [
+      "dark-atmosphere",
+      "foto-hero-forte",
+      "galeria-prioridade"
+    ],
+    "copyDirectionHints": [
+      "aspiracional",
+      "emocional",
+      "identidade",
+      "argumento: Barbearia premium com 15 anos em Curitiba"
+    ],
+    "ctaDirectionHints": [
+      "agendar",
+      "marcar-horario",
+      "oportunidade: Agendar online para fidelizar"
+    ],
+    "antiPatterns": []
+  },
+  "direction": {
+    "theme": {
+      "paletteMode": "dark-immersive",
+      "contrastLevel": "high",
+      "density": "spacious",
+      "visualTemperature": "warm",
+      "preferredMood": [
+        "profissional",
+        "acessivel"
+      ]
+    },
+    "hero": {
+      "style": "image-overlay",
+      "emphasis": "visual",
+      "headlineMode": "aspirational",
+      "subheadlineMode": "value-proposition",
+      "backgroundDirection": "photo-atmospheric",
+      "ctaPriority": "booking"
+    },
+    "imagery": {
+      "focus": [
+        "resultado-trabalho",
+        "ambiente-moderno",
+        "estilo",
+        "profissional"
+      ],
+      "avoid": [
+        "generico-stock",
+        "corporativo",
+        "clinico"
+      ],
+      "style": "atmospheric",
+      "realismLevel": "high-preference-real-photos"
+    },
+    "sections": {
+      "priorityOrder": [
+        "hero",
+        "galeria",
+        "avaliacoes",
+        "contato",
+        "servicos",
+        "stats",
+        "sobre",
+        "faq",
+        "cta-final"
+      ],
+      "include": {
+        "hero": true,
+        "galeria": true,
+        "avaliacoes": true,
+        "contato": true,
+        "servicos": true,
+        "stats": true,
+        "sobre": true,
+        "faq": true,
+        "cta-final": true
+      },
+      "exclude": {}
+    },
+    "proof": {
+      "emphasis": "moderate",
+      "type": "customer-stories"
+    },
+    "conversion": {
+      "primaryCta": "Agendar Agora",
+      "secondaryCta": "Ver Horários",
+      "contactStrategy": "booking-first",
+      "formMode": "simple"
+    },
+    "copy": {
+      "tone": "aspiracional-envolvente",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": []
+    }
+  },
+  "applied": {
+    "overrides": [
+      "palette:dark-immersive",
+      "imagery:beleza-pessoal",
+      "content:beleza-pessoal",
+      "cta:Agendar Agora",
+      "enriched:lead-specifics"
+    ],
+    "palette": {
+      "mode": "dark-immersive",
+      "bg": "#09090f",
+      "primary": "#e8a838",
+      "accent": "#d4943c",
+      "text": "#f0f0f0"
+    },
+    "imagery": {
+      "segment": "beleza-pessoal",
+      "heroImg": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1920&q=80&auto=fo...",
+      "aboutImg": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900&q=80&auto=for..."
+    },
+    "cta": {
+      "primary": "Agendar Agora",
+      "secondary": "Ver Horários"
+    },
+    "sectionOrder": [
+      "hero",
+      "galeria",
+      "avaliacoes",
+      "contato",
+      "servicos",
+      "stats",
+      "sobre",
+      "faq",
+      "cta-final"
+    ],
+    "sectionLabelsSource": "beleza-pessoal",
+    "contentSource": "beleza-pessoal",
+    "tagline": {
+      "source": "ia-diagnosis",
+      "value": "Barbearia premium com 15 anos em Curitiba"
+    },
+    "iaInfluence": true,
+    "iaFields": {
+      "hasArgumento": true,
+      "hasGaps": true,
+      "hasCopylab": true,
+      "hasPotencial": true
+    },
+    "enrichment": {
+      "hasLeadData": true,
+      "leadFlags": {
+        "hasAvaliacao": true,
+        "hasDescricao": true,
+        "hasHorarios": true,
+        "hasEndereco": true,
+        "hasInstagram": true,
+        "hasWebsite": false
+      },
+      "nameTokens": [],
+      "reviewsSource": "enriched-specific",
+      "heroHeadlineSource": "sales-angle",
+      "subheadlineSource": "enriched-specific",
+      "aboutSource": "lead-descricao",
+      "iaEnriched": true,
+      "siteContext": "new-creation"
+    }
+  },
+  "audit": {
+    "businessPersona": {
+      "empresa": "Barbearia Teste Melhoria",
+      "segment": "beleza-pessoal",
+      "businessMode": "lifestyle-service",
+      "traits": [
+        "lifestyle/aspiracional"
+      ],
+      "tone": "aspiracional-envolvente",
+      "brandVibe": [
+        "profissional",
+        "acessivel"
+      ],
+      "audience": [
+        "homens-estilo",
+        "jovens-adultos"
+      ],
+      "customerMindset": [
+        "quero-experiencia",
+        "identificacao-estilo",
+        "quero-agendar",
+        "praticidade"
+      ],
+      "salesModel": "appointment",
+      "visualPersonality": "dark-immersive",
+      "heroStyle": "image-overlay",
+      "summary": "Barbearia Teste Melhoria é um negócio tipo \"lifestyle-service\" no segmento \"beleza-pessoal\". Persona: lifestyle/aspiracional. Tom: aspiracional-envolvente. Público: homens-estilo, jovens-adultos."
+    },
+    "specificityMarkers": {
+      "heroHeadline": "segment-specific",
+      "heroSubheadline": "business-specific",
+      "ctaPrimary": "Agendar Agora",
+      "ctaPrimarySource": "signal:bookingNeed",
+      "ctaSecondary": "Ver Horários",
+      "reviews": "segment+business-specific",
+      "aboutParagraph": "lead-descricao-real",
+      "services": "segment:beleza-pessoal+ia-enriched",
+      "faq": "segment:beleza-pessoal+location-faq+horarios-injected",
+      "palette": "direction:dark-immersive",
+      "imagery": "segment:beleza-pessoal",
+      "stats": "lead-data-enriched",
+      "sectionLabels": "segment:beleza-pessoal",
+      "sectionOrder": "direction-weighted",
+      "tagline": "ia-diagnosis",
+      "_score": "15/15",
+      "_pct": "100%"
+    },
+    "heroRationale": {
+      "headlineMode": "aspirational",
+      "headlineSource": "sales-angle-function",
+      "headlineValue": "Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.",
+      "subheadlineSource": "enrichWithLeadSpecifics",
+      "emphasis": "visual",
+      "style": "image-overlay",
+      "why": "hero image-overlay padrão — equilíbrio entre visual e conteúdo. headline mode aspiracional: negócio lifestyle/experiencial. salesAngle fornece headline por segmento."
+    },
+    "ctaRationale": {
+      "primaryCta": "Agendar Agora",
+      "secondaryCta": "Ver Horários",
+      "contactStrategy": "booking-first",
+      "why": "bookingNeed=true → CTA prioriza agendamento."
+    },
+    "proofRationale": {
+      "emphasis": "moderate",
+      "type": "customer-stories",
+      "reviewsSource": "segment-templates-with-business-data",
+      "hasRealRating": true,
+      "ratingUsed": 4.8,
+      "why": "socialProofNeed moderado → prova social presente mas não dominante. avaliação real (4.8★) injeta credibilidade nos stats e reviews. tipo customer-stories: depoimentos de clientes como prova principal."
+    },
+    "copyRationale": {
+      "tone": "aspiracional-envolvente",
+      "sentenceStyle": "balanced",
+      "persuasionMode": "benefit-aspiration",
+      "avoid": [],
+      "aboutSource": "lead-descricao-real",
+      "why": "lifestyleSignal > 0.6 → tom aspiracional e envolvente. persuasão por benefício/aspiração. IA argumento_venda influencia about/tagline/subheadline. descrição real do Google usada no parágrafo sobre."
+    },
+    "why_this_business_is_not_generic": {
+      "reasons": [
+        "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
+        "Reviews mencionam \"Barbearia Teste Melhoria\" por nome, não são genéricos",
+        "Parágrafo \"sobre\" usa a descrição real do negócio do Google",
+        "Stats usam avaliação real: 4.8★ (0 avaliações)",
+        "FAQ injeta horários reais: \"Seg-Sex: 9h-19h\"",
+        "FAQ inclui localização real: Rua das Flores, 100 - Centro, Centro, Curitiba",
+        "IA argumento_venda usado em tagline/about/subheadline",
+        "IA gaps enriqueceram service descs: agendamento, catálogo"
+      ],
+      "specificFieldCount": 15,
+      "totalFields": 15,
+      "verdict": "altamente específico"
+    },
+    "fieldProvenance": {
+      "fromLead": [
+        "empresa",
+        "nicho",
+        "cidade",
+        "telefone",
+        "instagram",
+        "avaliacao",
+        "descricao",
+        "horarios",
+        "endereco",
+        "bairro"
+      ],
+      "fromCRM": [
+        "diagnosticoIA"
+      ],
+      "fromIA": [
+        "argumento_venda",
+        "gaps:agendamento,catálogo",
+        "potencial:alto",
+        "oportunidade_principal",
+        "payload_copylab"
+      ],
+      "inferred": [
+        "segment:beleza-pessoal",
+        "businessMode:lifestyle-service",
+        "paletteMode:dark-immersive",
+        "heroStyle:image-overlay",
+        "copyTone:aspiracional-envolvente",
+        "salesModel:appointment",
+        "contactStrategy:booking-first",
+        "sectionOrder:weighted-by-signals"
+      ],
+      "summary": {
+        "lead": 10,
+        "crm": 1,
+        "ia": 5,
+        "inferred": 8,
+        "total": 24
+      }
+    }
+  }
+}
