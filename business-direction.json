@@ -1,4 +1,45 @@
 {
+  "generationMode": "quick",
+  "_generationMeta": {
+    "mode": "quick",
+    "timestamp": "2026-04-06T20:02:19.817Z",
+    "aiUsed": false,
+    "aiFailed": false,
+    "hero": {
+      "headlineSource": "sales-angle",
+      "subheadlineSource": "enriched-specific",
+      "aiAttempted": false,
+      "aiFallback": false
+    },
+    "services": {
+      "source": "segment-template",
+      "realCategories": 0,
+      "aiEnriched": false
+    },
+    "reviews": {
+      "source": "segment-enriched",
+      "realCount": 0
+    },
+    "imagery": {
+      "heroSource": "segment-fallback",
+      "aboutSource": "segment-fallback",
+      "galleryRealCount": 0,
+      "logoSource": "generated-initial"
+    },
+    "diagnosticoIA": {
+      "available": true,
+      "fieldsUsed": [
+        "argumento_venda",
+        "gaps",
+        "potencial",
+        "oportunidade_principal",
+        "payload_copylab",
+        "cta_sugerido",
+        "tom_recomendado"
+      ]
+    },
+    "fallbacks": []
+  },
   "signals": {
     "businessType": "local-service",
     "segment": "beleza-pessoal",
@@ -267,7 +308,7 @@
         "hasWebsite": false
       },
       "nameTokens": [],
-      "reviewsSource": "enriched-specific",
+      "reviewsSource": "segment-enriched",
       "heroHeadlineSource": "sales-angle",
       "subheadlineSource": "enriched-specific",
       "aboutSource": "lead-descricao",
