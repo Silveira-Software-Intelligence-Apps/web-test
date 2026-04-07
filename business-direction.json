@@ -2,7 +2,9 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-06T20:45:44.302Z",
+    "timestamp": "2026-04-07T00:02:17.323Z",
+    "leadDataQuality": "medium",
+    "syntheticEnrichmentUsed": false,
     "aiUsed": false,
     "aiFailed": false,
     "aiCalls": 0,
@@ -31,6 +33,15 @@
       "source": "lead-descricao",
       "aiAttempted": false,
       "aiFallback": false
+    },
+    "faq": {
+      "source": "niche-template"
+    },
+    "visualDirection": {
+      "source": "segment-default",
+      "accentHue": null,
+      "moodShift": null,
+      "layoutVariant": null
     },
     "imagery": {
       "heroSource": "segment-fallback",
