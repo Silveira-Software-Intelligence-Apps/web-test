@@ -2,7 +2,7 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-07T00:05:14.893Z",
+    "timestamp": "2026-04-07T05:44:00.661Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -10,7 +10,7 @@
     "aiCalls": 0,
     "aiSuccesses": 0,
     "hero": {
-      "headlineSource": "sales-angle",
+      "headlineSource": "existing-project",
       "subheadlineSource": "enriched-specific",
       "aiAttempted": false,
       "aiFallback": false
@@ -252,9 +252,11 @@
       "palette:dark-immersive",
       "imagery:beleza-pessoal",
       "assets:real(instagram)",
+      "ingestion:2-sources(instagram,existing-project)",
       "content:beleza-pessoal",
       "cta:Agendar Agora",
-      "enriched:lead-specifics"
+      "enriched:lead-specifics",
+      "hero:real(existing-project)"
     ],
     "palette": {
       "mode": "dark-immersive",
@@ -291,6 +293,32 @@
         "instagramAvailable": true,
         "websiteUrl": null
       }
+    },
+    "ingestion": {
+      "leadDataQuality": "low",
+      "officialSources": {
+        "site": false,
+        "instagram": true,
+        "maps": false,
+        "existingProjectAssets": true
+      },
+      "heroSource": "existing-project",
+      "heroImageSource": "existing-project",
+      "servicesSource": "template",
+      "aboutSource": "template",
+      "faqSource": "template",
+      "ctaSource": "template",
+      "logoSource": "generated-initial",
+      "realFieldsUsed": [
+        "heroHeadline"
+      ],
+      "realFieldCount": 1,
+      "sourceCount": 2,
+      "sources": [
+        "instagram",
+        "existing-project"
+      ],
+      "websiteError": null
     },
     "cta": {
       "primary": "Agendar Agora",
@@ -332,7 +360,7 @@
       },
       "nameTokens": [],
       "reviewsSource": "segment-enriched",
-      "heroHeadlineSource": "sales-angle",
+      "heroHeadlineSource": "existing-project",
       "subheadlineSource": "enriched-specific",
       "aboutSource": "lead-descricao",
       "iaEnriched": true,
@@ -368,7 +396,7 @@
       "summary": "Barbearia Teste Melhoria é um negócio tipo \"lifestyle-service\" no segmento \"beleza-pessoal\". Persona: lifestyle/aspiracional. Tom: aspiracional-envolvente. Público: homens-estilo, jovens-adultos."
     },
     "specificityMarkers": {
-      "heroHeadline": "segment-specific",
+      "heroHeadline": "business-specific",
       "heroSubheadline": "business-specific",
       "ctaPrimary": "Agendar Agora",
       "ctaPrimarySource": "signal:bookingNeed",
@@ -388,7 +416,7 @@
     },
     "heroRationale": {
       "headlineMode": "aspirational",
-      "headlineSource": "sales-angle-function",
+      "headlineSource": "name-personality-tokens",
       "headlineValue": "Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.",
       "subheadlineSource": "enrichWithLeadSpecifics",
       "emphasis": "visual",
@@ -419,6 +447,7 @@
     },
     "why_this_business_is_not_generic": {
       "reasons": [
+        "Hero headline personalizado pelos tokens de nome: \"Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.\"",
         "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
         "Reviews mencionam \"Barbearia Teste Melhoria\" por nome, não são genéricos",
         "Parágrafo \"sobre\" usa a descrição real do negócio do Google",
