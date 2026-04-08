@@ -2,7 +2,7 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-07T05:44:00.661Z",
+    "timestamp": "2026-04-08T20:20:38.641Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -16,7 +16,7 @@
       "aiFallback": false
     },
     "services": {
-      "source": "segment-template",
+      "source": "existing-project",
       "realCategories": 0,
       "aiEnriched": false
     },
@@ -256,7 +256,8 @@
       "content:beleza-pessoal",
       "cta:Agendar Agora",
       "enriched:lead-specifics",
-      "hero:real(existing-project)"
+      "hero:real(existing-project)",
+      "services:real(existing-project)"
     ],
     "palette": {
       "mode": "dark-immersive",
@@ -304,15 +305,16 @@
       },
       "heroSource": "existing-project",
       "heroImageSource": "existing-project",
-      "servicesSource": "template",
+      "servicesSource": "existing-project",
       "aboutSource": "template",
       "faqSource": "template",
       "ctaSource": "template",
       "logoSource": "generated-initial",
       "realFieldsUsed": [
-        "heroHeadline"
+        "heroHeadline",
+        "services"
       ],
-      "realFieldCount": 1,
+      "realFieldCount": 2,
       "sourceCount": 2,
       "sources": [
         "instagram",
