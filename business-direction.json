@@ -2,7 +2,7 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-08T20:20:38.641Z",
+    "timestamp": "2026-04-08T21:08:28.375Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -10,13 +10,13 @@
     "aiCalls": 0,
     "aiSuccesses": 0,
     "hero": {
-      "headlineSource": "existing-project",
+      "headlineSource": "sales-angle",
       "subheadlineSource": "enriched-specific",
       "aiAttempted": false,
       "aiFallback": false
     },
     "services": {
-      "source": "existing-project",
+      "source": "segment-template",
       "realCategories": 0,
       "aiEnriched": false
     },
@@ -250,14 +250,13 @@
   "applied": {
     "overrides": [
       "palette:dark-immersive",
+      "palette:reused-from-existing",
       "imagery:beleza-pessoal",
       "assets:real(instagram)",
       "ingestion:2-sources(instagram,existing-project)",
       "content:beleza-pessoal",
       "cta:Agendar Agora",
-      "enriched:lead-specifics",
-      "hero:real(existing-project)",
-      "services:real(existing-project)"
+      "enriched:lead-specifics"
     ],
     "palette": {
       "mode": "dark-immersive",
@@ -362,7 +361,7 @@
       },
       "nameTokens": [],
       "reviewsSource": "segment-enriched",
-      "heroHeadlineSource": "existing-project",
+      "heroHeadlineSource": "sales-angle",
       "subheadlineSource": "enriched-specific",
       "aboutSource": "lead-descricao",
       "iaEnriched": true,
@@ -398,7 +397,7 @@
       "summary": "Barbearia Teste Melhoria é um negócio tipo \"lifestyle-service\" no segmento \"beleza-pessoal\". Persona: lifestyle/aspiracional. Tom: aspiracional-envolvente. Público: homens-estilo, jovens-adultos."
     },
     "specificityMarkers": {
-      "heroHeadline": "business-specific",
+      "heroHeadline": "segment-specific",
       "heroSubheadline": "business-specific",
       "ctaPrimary": "Agendar Agora",
       "ctaPrimarySource": "signal:bookingNeed",
@@ -418,7 +417,7 @@
     },
     "heroRationale": {
       "headlineMode": "aspirational",
-      "headlineSource": "name-personality-tokens",
+      "headlineSource": "sales-angle-function",
       "headlineValue": "Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.",
       "subheadlineSource": "enrichWithLeadSpecifics",
       "emphasis": "visual",
@@ -449,7 +448,6 @@
     },
     "why_this_business_is_not_generic": {
       "reasons": [
-        "Hero headline personalizado pelos tokens de nome: \"Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.\"",
         "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
         "Reviews mencionam \"Barbearia Teste Melhoria\" por nome, não são genéricos",
         "Parágrafo \"sobre\" usa a descrição real do negócio do Google",
@@ -503,6 +501,66 @@
         "inferred": 8,
         "total": 24
       }
+    }
+  },
+  "preservation": {
+    "sourceScores": {
+      "officialSite": 0,
+      "instagram": 0.25,
+      "googleMaps": 0,
+      "existingProjectAssets": 0.6499999999999999,
+      "existingProjectContent": 0.55,
+      "leadRaw": 0.7000000000000001,
+      "synthetic": 0.15
+    },
+    "sectionQuality": {
+      "hero": 0.7,
+      "services": 0.8,
+      "about": 0,
+      "faq": 0,
+      "gallery": 0.44999999999999996,
+      "cta": 0.5
+    },
+    "actionBySection": {
+      "hero": "preserve",
+      "services": "preserve",
+      "about": "upgrade",
+      "faq": "upgrade",
+      "gallery": "upgrade",
+      "cta": "polish"
+    },
+    "preservedSections": [
+      "hero",
+      "services"
+    ],
+    "polishedSections": [
+      "cta"
+    ],
+    "upgradedSections": [
+      "about",
+      "faq",
+      "gallery"
+    ],
+    "regeneratedSections": [],
+    "identity": {
+      "name": "Barbearia Teste Melhoria",
+      "tone": "professional",
+      "positioning": [
+        "standard"
+      ],
+      "mood": "professional-clean"
+    },
+    "visualReuse": {
+      "paletteReused": true,
+      "logoReused": false,
+      "imagesReused": false,
+      "galleryReused": true
+    },
+    "existingProjectReuse": {
+      "usedTextBlocks": 7,
+      "usedImages": 6,
+      "usedLogo": false,
+      "usedPalette": true
     }
   }
 }

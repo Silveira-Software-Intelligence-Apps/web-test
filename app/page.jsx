@@ -208,7 +208,7 @@ export default function Home() {
         <div className="card reveal reveal-delay-1">
           <div className="card-icon">✂️</div>
           <h3 style={{ fontSize: '1.05rem', fontWeight: 700, color: '#f0f0f0', marginBottom: '8px' }}>Corte Profissional</h3>
-          <p style={{ fontSize: '0.875rem', color: '#9a9ab0', lineHeight: 1.7 }}>Estilo sob medida · Seg-Sex: 9h-19h · Agende pelo WhatsApp · Catálogo online no site</p>
+          <p style={{ fontSize: '0.875rem', color: '#9a9ab0', lineHeight: 1.7 }}>Estilo sob medida · Seg-Sex: 9h-19h</p>
         </div>
         <div className="card reveal reveal-delay-2">
           <div className="card-icon">🪒</div>
@@ -257,7 +257,7 @@ export default function Home() {
           <div style={{ fontSize: '0.875rem', color: '#9a9ab0' }}>Clientes mensais</div>
         </div>
         <div className="stat-card reveal">
-          <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#e8a838', lineHeight: 1 }}>4.8★</div>
+          <div style={{ fontSize: 'clamp(2rem, 5vw, 3rem)', fontWeight: 900, color: '#e8a838', lineHeight: 1 }}>4.5★</div>
           <div style={{ width: '32px', height: '2px', background: '#e8a838', margin: '12px auto', borderRadius: '2px' }} />
           <div style={{ fontSize: '0.875rem', color: '#9a9ab0' }}>Avaliação Google</div>
         </div>
