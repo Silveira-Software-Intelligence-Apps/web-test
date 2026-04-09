@@ -2,7 +2,7 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-08T21:08:28.375Z",
+    "timestamp": "2026-04-09T02:40:06.195Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -10,7 +10,7 @@
     "aiCalls": 0,
     "aiSuccesses": 0,
     "hero": {
-      "headlineSource": "sales-angle",
+      "headlineSource": "existing-project",
       "subheadlineSource": "enriched-specific",
       "aiAttempted": false,
       "aiFallback": false
@@ -256,7 +256,8 @@
       "ingestion:2-sources(instagram,existing-project)",
       "content:beleza-pessoal",
       "cta:Agendar Agora",
-      "enriched:lead-specifics"
+      "enriched:lead-specifics",
+      "hero:real(existing-project)"
     ],
     "palette": {
       "mode": "dark-immersive",
@@ -361,7 +362,7 @@
       },
       "nameTokens": [],
       "reviewsSource": "segment-enriched",
-      "heroHeadlineSource": "sales-angle",
+      "heroHeadlineSource": "existing-project",
       "subheadlineSource": "enriched-specific",
       "aboutSource": "lead-descricao",
       "iaEnriched": true,
@@ -397,7 +398,7 @@
       "summary": "Barbearia Teste Melhoria é um negócio tipo \"lifestyle-service\" no segmento \"beleza-pessoal\". Persona: lifestyle/aspiracional. Tom: aspiracional-envolvente. Público: homens-estilo, jovens-adultos."
     },
     "specificityMarkers": {
-      "heroHeadline": "segment-specific",
+      "heroHeadline": "business-specific",
       "heroSubheadline": "business-specific",
       "ctaPrimary": "Agendar Agora",
       "ctaPrimarySource": "signal:bookingNeed",
@@ -417,7 +418,7 @@
     },
     "heroRationale": {
       "headlineMode": "aspirational",
-      "headlineSource": "sales-angle-function",
+      "headlineSource": "name-personality-tokens",
       "headlineValue": "Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.",
       "subheadlineSource": "enrichWithLeadSpecifics",
       "emphasis": "visual",
@@ -448,6 +449,7 @@
     },
     "why_this_business_is_not_generic": {
       "reasons": [
+        "Hero headline personalizado pelos tokens de nome: \"Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.\"",
         "Subtítulo construído com dados reais do lead (avaliação, cidade, modo de negócio)",
         "Reviews mencionam \"Barbearia Teste Melhoria\" por nome, não são genéricos",
         "Parágrafo \"sobre\" usa a descrição real do negócio do Google",
@@ -504,51 +506,76 @@
     }
   },
   "preservation": {
+    "snapshotUsed": true,
+    "snapshotVersion": 1,
+    "snapshotSource": "structured-site-snapshot",
+    "leadDataQuality": "high",
     "sourceScores": {
       "officialSite": 0,
       "instagram": 0.25,
       "googleMaps": 0,
       "existingProjectAssets": 0.6499999999999999,
-      "existingProjectContent": 0.55,
+      "existingProjectContent": 0.9,
       "leadRaw": 0.7000000000000001,
       "synthetic": 0.15
     },
     "sectionQuality": {
-      "hero": 0.7,
-      "services": 0.8,
+      "hero": 0.15000000000000002,
+      "services": 0.75,
+      "about": 0.75,
+      "faq": 0.75,
+      "cta": 0.85,
+      "gallery": 0.35
+    },
+    "genericityScores": {
+      "hero": 0.21176470588235294,
+      "services": 0.21176470588235294,
       "about": 0,
       "faq": 0,
+      "cta": 0.29411764705882354
+    },
+    "visualQuality": {
+      "hero": 0.6,
       "gallery": 0.44999999999999996,
-      "cta": 0.5
+      "branding": 0.6,
+      "overall": 0.5549999999999999
     },
     "actionBySection": {
-      "hero": "preserve",
+      "hero": "regenerate",
       "services": "preserve",
       "about": "upgrade",
       "faq": "upgrade",
       "gallery": "upgrade",
-      "cta": "polish"
+      "cta": "preserve"
+    },
+    "reasonBySection": {
+      "hero": "low-quality + medium-genericity + adequate-source",
+      "services": "high-quality + low-genericity + strong-source",
+      "about": "high-genericity + strong-source + medium-quality",
+      "faq": "high-genericity + strong-source + medium-quality",
+      "gallery": "high-genericity + strong-source + weak-quality",
+      "cta": "high-quality + low-genericity + strong-source",
+      "_brandingProtected": "visual-quality-high"
     },
     "preservedSections": [
-      "hero",
-      "services"
-    ],
-    "polishedSections": [
+      "services",
       "cta"
     ],
+    "polishedSections": [],
     "upgradedSections": [
       "about",
       "faq",
       "gallery"
     ],
-    "regeneratedSections": [],
+    "regeneratedSections": [
+      "hero"
+    ],
     "identity": {
       "name": "Barbearia Teste Melhoria",
       "tone": "professional",
       "positioning": [
         "standard"
-      ],
-      "mood": "professional-clean"
+      ]
     },
     "visualReuse": {
       "paletteReused": true,
@@ -557,10 +584,11 @@
       "galleryReused": true
     },
     "existingProjectReuse": {
-      "usedTextBlocks": 7,
+      "usedTextBlocks": 8,
       "usedImages": 6,
       "usedLogo": false,
-      "usedPalette": true
+      "usedPalette": true,
+      "usedSectionOrder": true
     }
   }
 }

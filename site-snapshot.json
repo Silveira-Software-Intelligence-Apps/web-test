@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-09T02:40:06.197Z",
+  "sections": {
+    "hero": {
+      "headline": "Seu espaço. Seu estilo. Agende na Barbearia Teste Melhoria.",
+      "subheadline": "Barbearia premium com 15 anos em Curitiba",
+      "ctaPrimary": "Agendar Agora",
+      "ctaSecondary": "Ver Horários",
+      "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1920&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "existing-project"
+    },
+    "services": {
+      "items": [
+        {
+          "name": "Corte Profissional",
+          "icon": "✂️",
+          "desc": "Estilo sob medida · Seg-Sex: 9h-19h · Agende pelo WhatsApp · Catálogo online no site"
+        },
+        {
+          "name": "Barba & Acabamento",
+          "icon": "🪒",
+          "desc": "Navalha e precisão"
+        },
+        {
+          "name": "Tratamento Capilar",
+          "icon": "🌿",
+          "desc": "Hidratação e nutrição"
+        },
+        {
+          "name": "Coloração",
+          "icon": "🎨",
+          "desc": "Técnicas modernas"
+        },
+        {
+          "name": "Design de Sobrancelha",
+          "icon": "✨",
+          "desc": "Acabamento perfeito"
+        },
+        {
+          "name": "Dia do Noivo",
+          "icon": "💈",
+          "desc": "Pacote especial"
+        }
+      ],
+      "source": "segment-template"
+    },
+    "about": {
+      "text": "A melhor barbearia premium de Curitiba, agora com serviços exclusivos e 15 anos de experiência",
+      "image": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=900&q=80&auto=format&fit=crop",
+      "imageSource": "segment-fallback",
+      "source": "lead-descricao"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Precisa agendar?",
+          "a": "Recomendamos agendar pelo WhatsApp (5541999990001) para garantir horário, mas aceitamos sem agendamento."
+        },
+        {
+          "q": "Quanto tempo dura o serviço?",
+          "a": "Corte leva cerca de 30 minutos. Corte + barba, de 50 a 60 minutos."
+        },
+        {
+          "q": "Atendem crianças?",
+          "a": "Sim! Atendemos crianças a partir de 3 anos com paciência e cuidado."
+        },
+        {
+          "q": "Quais produtos usam?",
+          "a": "Usamos produtos profissionais das melhores marcas para garantir resultado."
+        },
+        {
+          "q": "Onde fica a Barbearia Teste Melhoria?",
+          "a": "Estamos em Rua das Flores, 100 - Centro, Centro, Curitiba. Venha nos visitar ou entre em contato pelo WhatsApp para mais informações."
+        }
+      ],
+      "source": "niche-template"
+    },
+    "gallery": {
+      "images": [
+        "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?w=600&q=80&auto=format&fit=crop"
+      ],
+      "realCount": 0,
+      "source": "segment-fallback"
+    },
+    "reviews": {
+      "items": [
+        {
+          "name": "Thiago R.",
+          "text": "Melhor experiência que já tive. O profissional da Barbearia Teste Melhoria entendeu exatamente o que eu queria. Saí outro.",
+          "rating": 5
+        },
+        {
+          "name": "Camila S.",
+          "text": "Ambiente top, atendimento pontual e resultado impecável. Não troco por nada. Referência em Curitiba.",
+          "rating": 5
+        },
+        {
+          "name": "Bruno M.",
+          "text": "4.8★ — Agendei pelo WhatsApp, fui atendido na hora. Profissional, moderno e com estilo. Voltarei sempre.",
+          "rating": 5
+        }
+      ],
+      "source": "segment-enriched"
+    },
+    "cta": {
+      "primaryText": "Agendar Agora",
+      "secondaryText": "Ver Horários",
+      "phone": "5541999990001",
+      "source": "direction-signals"
+    },
+    "branding": {
+      "logo": null,
+      "logoSource": "generated-initial",
+      "palette": {
+        "bg": "#09090f",
+        "primary": "#e8a838",
+        "accent": "#d4943c",
+        "text": "#f0f0f0"
+      },
+      "paletteMode": "dark-immersive",
+      "tone": "professional",
+      "source": "generated-initial"
+    }
+  },
+  "sectionOrder": [
+    "hero",
+    "galeria",
+    "avaliacoes",
+    "contato",
+    "servicos",
+    "stats",
+    "sobre",
+    "faq",
+    "cta-final"
+  ],
+  "visualProfile": {
+    "palette": {
+      "bg": "#09090f",
+      "primary": "#e8a838",
+      "accent": "#d4943c",
+      "text": "#f0f0f0"
+    },
+    "paletteMode": "dark-immersive",
+    "segment": "beleza-pessoal",
+    "mood": "neutral-clean",
+    "layoutVariant": "hero-centered",
+    "accentHue": null
+  },
+  "provenance": {
+    "generationMode": "quick",
+    "aiUsed": false,
+    "aiSuccesses": 0,
+    "aiCalls": 0,
+    "syntheticUsed": false,
+    "leadDataQuality": "medium"
+  }
+}
