@@ -2,7 +2,7 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-09T04:54:29.572Z",
+    "timestamp": "2026-04-09T19:00:01.924Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -369,6 +369,30 @@
       "siteContext": "new-creation"
     }
   },
+  "qualityGuard": {
+    "rewrites": 0,
+    "guarded": [],
+    "antiGenericTriggered": false,
+    "specificityInjected": false,
+    "narrativeFlow": {
+      "heroAngle": "lifestyle",
+      "servicesAngle": "list",
+      "aboutAngle": "story",
+      "ctaAngle": "appointment"
+    },
+    "specificityContext": {
+      "concreteElements": [
+        "descricao",
+        "avaliacao"
+      ],
+      "differentiators": [
+        "avaliação 4.8★",
+        "em Curitiba",
+        "presença Instagram"
+      ],
+      "hasRealContent": true
+    }
+  },
   "audit": {
     "businessPersona": {
       "empresa": "Barbearia Teste Melhoria",
@@ -520,7 +544,7 @@
       "synthetic": 0.15
     },
     "sectionQuality": {
-      "hero": 0.65,
+      "hero": 0.7000000000000001,
       "services": 0.75,
       "about": 0.75,
       "faq": 0.75,

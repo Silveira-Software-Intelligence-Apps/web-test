@@ -410,7 +410,7 @@ export default function Home() {
             Fale com a <span style={{ color: '#e8a838' }}>Barbearia Teste Melhoria</span><br />agora mesmo
           </h2>
           <p style={{ color: '#9a9ab0', fontSize: '1.1rem', marginBottom: '44px', lineHeight: 1.7 }}>
-            Atendimento rápido, profissional e sem complicação. Estamos em Curitiba para te atender.
+            Barbearia direto no WhatsApp, sem enrolação. Na Barbearia Teste Melhoria em Curitiba, a resposta é rápida.
           </p>
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap', justifyContent: 'center' }}>
             <a href="https://wa.me/555541999990001?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações." target="_blank" className="btn-wa" style={{ fontSize: '1.1rem', padding: '18px 44px' }}>
