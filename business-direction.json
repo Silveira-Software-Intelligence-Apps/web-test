@@ -2,7 +2,7 @@
   "generationMode": "quick",
   "_generationMeta": {
     "mode": "quick",
-    "timestamp": "2026-04-09T02:40:06.195Z",
+    "timestamp": "2026-04-09T04:54:29.572Z",
     "leadDataQuality": "medium",
     "syntheticEnrichmentUsed": false,
     "aiUsed": false,
@@ -520,7 +520,7 @@
       "synthetic": 0.15
     },
     "sectionQuality": {
-      "hero": 0.15000000000000002,
+      "hero": 0.65,
       "services": 0.75,
       "about": 0.75,
       "faq": 0.75,
@@ -528,20 +528,20 @@
       "gallery": 0.35
     },
     "genericityScores": {
-      "hero": 0.21176470588235294,
+      "hero": 0,
       "services": 0.21176470588235294,
       "about": 0,
       "faq": 0,
       "cta": 0.29411764705882354
     },
     "visualQuality": {
-      "hero": 0.6,
+      "hero": 0.75,
       "gallery": 0.44999999999999996,
       "branding": 0.6,
-      "overall": 0.5549999999999999
+      "overall": 0.6074999999999999
     },
     "actionBySection": {
-      "hero": "regenerate",
+      "hero": "upgrade",
       "services": "preserve",
       "about": "upgrade",
       "faq": "upgrade",
@@ -549,7 +549,7 @@
       "cta": "preserve"
     },
     "reasonBySection": {
-      "hero": "low-quality + medium-genericity + adequate-source",
+      "hero": "high-genericity + strong-source + medium-quality",
       "services": "high-quality + low-genericity + strong-source",
       "about": "high-genericity + strong-source + medium-quality",
       "faq": "high-genericity + strong-source + medium-quality",
@@ -563,13 +563,12 @@
     ],
     "polishedSections": [],
     "upgradedSections": [
+      "hero",
       "about",
       "faq",
       "gallery"
     ],
-    "regeneratedSections": [
-      "hero"
-    ],
+    "regeneratedSections": [],
     "identity": {
       "name": "Barbearia Teste Melhoria",
       "tone": "professional",
